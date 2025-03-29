@@ -1,0 +1,6 @@
+<svg width="120" height="40" viewBox="0 0 120 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M20 20C20 14.4772 24.4772 10 30 10H40C45.5228 10 50 14.4772 50 20C50 25.5228 45.5228 30 40 30H30C24.4772 30 20 25.5228 20 20Z" stroke="#4A5568" stroke-width="2"/>
+  <circle cx="30" cy="20" r="3" fill="#4A5568"/>
+  <circle cx="40" cy="20" r="3" fill="#4A5568"/>
+  <text x="55" y="25" font-family="Arial" font-size="12" font-weight="bold" fill="#4A5568">Automation</text>
+</svg> 

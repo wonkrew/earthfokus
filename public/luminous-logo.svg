@@ -1,0 +1,5 @@
+<svg width="120" height="40" viewBox="0 0 120 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="35" cy="20" r="15" stroke="#4A5568" stroke-width="2"/>
+  <path d="M35 10V15M35 25V30M25 20H30M40 20H45M27 12L30 15M40 25L43 28M27 28L30 25M40 15L43 12" stroke="#4A5568" stroke-width="2" stroke-linecap="round"/>
+  <text x="55" y="25" font-family="Arial" font-size="12" font-weight="bold" fill="#4A5568">luminous</text>
+</svg> 

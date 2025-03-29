@@ -1,0 +1,5 @@
+<svg width="120" height="40" viewBox="0 0 120 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M20 15L30 25M30 15L20 25" stroke="#4A5568" stroke-width="2" stroke-linecap="round"/>
+  <path d="M40 15H50L45 25H35" stroke="#4A5568" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="55" y="25" font-family="Arial" font-size="12" font-weight="bold" fill="#4A5568">Nextmove</text>
+</svg> 

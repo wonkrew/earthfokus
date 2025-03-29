@@ -1,0 +1,31 @@
+<svg width="400" height="400" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Brain outline -->
+  <path d="M200 50C130 50 70 120 70 200C70 280 130 350 200 350C270 350 330 280 330 200C330 120 270 50 200 50Z" fill="#E6F4FF" stroke="#2B88D8" stroke-width="3"/>
+  
+  <!-- Brain folds - left side in darker blue -->
+  <path d="M180 80C150 90 130 110 120 140C110 170 115 210 130 240C145 270 170 290 180 310" stroke="#1E6BB8" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <path d="M150 100C130 120 120 150 120 180C120 210 130 240 150 260" stroke="#1E6BB8" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <path d="M160 120C145 140 140 170 145 200C150 230 165 250 170 270" stroke="#1E6BB8" stroke-width="7" fill="none" stroke-linecap="round"/>
+  <path d="M140 160C130 180 130 210 140 230" stroke="#1E6BB8" stroke-width="6" fill="none" stroke-linecap="round"/>
+  
+  <!-- Dark blue fill for left half of the brain -->
+  <path d="M70 200C70 280 130 350 200 350L200 50C130 50 70 120 70 200Z" fill="#2B88D8" fill-opacity="0.3"/>
+  
+  <!-- Brain folds - right side in lighter blue -->
+  <path d="M220 80C250 90 270 110 280 140C290 170 285 210 270 240C255 270 230 290 220 310" stroke="#2B88D8" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <path d="M250 100C270 120 280 150 280 180C280 210 270 240 250 260" stroke="#2B88D8" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <path d="M240 120C255 140 260 170 255 200C250 230 235 250 230 270" stroke="#2B88D8" stroke-width="7" fill="none" stroke-linecap="round"/>
+  <path d="M260 160C270 180 270 210 260 230" stroke="#2B88D8" stroke-width="6" fill="none" stroke-linecap="round"/>
+  
+  <!-- Brain stem -->
+  <path d="M190 310L190 350" stroke="#2B88D8" stroke-width="15" stroke-linecap="round"/>
+  <path d="M210 310L210 350" stroke="#2B88D8" stroke-width="15" stroke-linecap="round"/>
+  
+  <!-- Water droplet effects -->
+  <circle cx="120" cy="180" r="10" fill="#2B88D8" fill-opacity="0.6"/>
+  <circle cx="160" cy="220" r="8" fill="#2B88D8" fill-opacity="0.6"/>
+  <circle cx="140" cy="260" r="12" fill="#2B88D8" fill-opacity="0.6"/>
+  
+  <!-- Center dividing line -->
+  <path d="M200 50L200 350" stroke="#2B88D8" stroke-width="2" stroke-dasharray="5 5"/>
+</svg> 
