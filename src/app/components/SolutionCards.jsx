@@ -94,15 +94,12 @@ const SolutionCards = () => {
     const startAutoScroll = () => {
       autoScrollIntervalRef.current = setInterval(() => {
         if (scrollContainerRef.current) {
-          // With snap scrolling, we need to move by card width + gap
-          // This ensures smooth snap to next card
-          const cardWidth = 422; // Width of each card
-          const cardGap = 24; // Gap between cards (6 * 4px from tailwind gap-6)
+          const cardWidth = 422;
+          const cardGap = 24;
           const scrollStep = cardWidth + cardGap;
 
           let newPosition = scrollPosition + scrollStep;
 
-          // Reset to beginning when reached the end
           if (newPosition >= maxScroll) {
             newPosition = 0;
           }
@@ -114,7 +111,7 @@ const SolutionCards = () => {
 
           setScrollPosition(newPosition);
         }
-      }, 4000); // Increased interval for smoother experience - 4 seconds per card
+      }, 6000); // Changed from 4000 to 6000 for slower scrolling
     };
 
     startAutoScroll();
@@ -249,14 +246,14 @@ const SolutionCards = () => {
       // Create main horizontal scroll animation
       gsap.to(container, {
         x: () => -(totalWidth - containerWidth),
-        ease: "none",
+        ease: "power2.inOut", // Changed from 'none' to 'power2.inOut' for smoother animation
         scrollTrigger: {
           trigger: wrapper,
           start: "center-=10 center",
           end: () => `+=${totalWidth}`,
           pin: true,
           anticipatePin: 1,
-          scrub: 1,
+          scrub: 1.5, // Increased from 1 to 1.5 for smoother scrolling
           invalidateOnRefresh: true,
           snap: {
             snapTo: 1 / (cards.length - 1),

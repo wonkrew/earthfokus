@@ -39,12 +39,12 @@ const Solution = () => {
               initial="hidden"
               animate={mainControls}
               transition={{ duration: 0.5, delay: 0.3 }}
-              className="md:w-1/2"
+              className="md:w-1/2 w-full mb-6 md:mb-0"
             >
-              <h2 className="font-[Raleway] text-[40px] font-medium leading-[100%] tracking-[0%] align-middle text-gray-900">
+              <h2 className="font-[Raleway] text-[28px] md:text-[40px] font-medium leading-[100%] tracking-[0%] align-middle text-gray-900">
                 Fokused Water Management
               </h2>
-              <div className="font-[Raleway] text-[64px] font-black leading-[100%] text-gray-900 tracking-[0%] align-middle mt-2">
+              <div className="font-[Raleway] text-[48px] md:text-[64px] font-black leading-[100%] text-gray-900 tracking-[0%] align-middle mt-2">
                 Solution
               </div>
             </motion.div>
@@ -58,9 +58,9 @@ const Solution = () => {
               initial="hidden"
               animate={mainControls}
               transition={{ duration: 0.5, delay: 0.5 }}
-              className="md:w-1/2"
+              className="md:w-1/2 w-full"
             >
-              <p className="font-[Raleway] text-[32px] font-normal leading-[50px] tracking-[0%] align-middle text-gray-600 w-[624px] h-[140px]">
+              <p className="font-[Raleway] text-[20px] md:text-[32px] font-normal leading-normal md:leading-[50px] tracking-[0%] align-middle text-gray-600">
                 Businesses la face panna water management problems, wastage,
                 inefficient systems, and lack of real-time monitoring. Idhu
                 sustainability goals ah affect pannum and operational costs ah
